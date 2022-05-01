@@ -1,0 +1,85 @@
+:root {
+  --brightred: #f9423d;
+  --brightyellow: #ffff00;
+  --darkgrey: #212329;
+  --lightred: #f9433dcc;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+}
+
+body {
+  background: #ffcccc;
+}
+
+.navbar-container {
+  width: 100%;
+  background-color: var(--white);
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 0.2fr auto 1fr;
+  align-items: center;
+  width: 90%;
+  max-width: 1720px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+#nav-logo {
+  justify-self: start;
+  margin-left: 20px;
+}
+
+#nav-logo:hover {
+  cursor: pointer;
+  color: #ffcccc;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  list-style: none;
+  text-align: center;
+  width: 70%;
+  justify-self: end;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links:hover {
+  color: var(--brightred);
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-btn {
+  background-color: var(--brightred);
+  padding: 6px 16px;
+  border-radius: 4px;
+}
+
+.nav-links-btn:hover {
+  background-color: transparent;
+  color: var(--brightred);
+  padding: 5px 15px;
+  border-radius: 4px;
+  border: 1px solid var(--brightred);
+  transition: all 0.3s ease-out;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background: black;
+}
