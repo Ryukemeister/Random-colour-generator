@@ -1,4 +1,3 @@
 #Demo
 
-This is my first ever repo on Github. I'm currently trying to track the changed files and then add them and then commit the changes. So let's see how this goes!
-Well this went okay I guess. I'm still trying to figure out some things though.
+This is a random colour generator which consist of two pages, a simple one and a hex one. The simple page picks a random colour out of four pre defined colours and changes the background everytime we click the CLICK ME button. The hex actually generates a random rgb hex colour from a list of elements contianing numbers from 1-9 and letters from A-F and then changes background everytime we click the CLICK ME button. I created this project with the help of one of John Smilga's vidoes on basic Javascript projects.
